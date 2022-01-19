@@ -1,0 +1,72 @@
+.home {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+.upcoming-movies-heading {
+  background-color: #ff999f;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+
+}
+
+.grid-upcoming-movies {
+  margin-bottom: 10px;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.left {
+  margin-right: 16px;
+  float: left;
+  width: 76%;
+  background-color: powderblue;
+}
+
+.right {
+  margin-left: 16px;
+  margin-right: 80px;
+  content: normal;
+  float: right;
+  width: 24%;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+
+.find-by {
+  color:paleturquoise;
+}
+
+.form-control-genres {
+  display: 'flex';
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.form-control-artist {
+  width: auto;
+  display: 'flex';
+  justify-content: center;
+}
+
+.find-card-content {
+  display: 'flex';
+  flex-wrap: nowrap;
+  width: fit-content;
+}
+
+.find-by-card{
+  display: 'flex';
+  min-width: 240;
+  max-width: 240;
+}
+
+
+

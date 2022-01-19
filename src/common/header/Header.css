@@ -1,0 +1,26 @@
+.header {
+    padding: 8px, 32px, 8px, 16px;
+    background-color: #222;
+    height: 36px;
+}
+
+.header img {
+    width: 100px;
+    height: 35px;
+    background-color: #ff7f7f;
+    rotate: 8;
+}
+
+.book-show-btn {
+    padding: 8px, 32px, 8px, 16px;
+    float: right;
+    margin-right: 15;
+    margin-top: 2;
+    height: 34;
+}
+
+.modal-login-logout {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
